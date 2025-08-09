@@ -10,7 +10,7 @@ export default function Navbar() {
     <header className='navbar'>
       <Button
         link={"/"}
-        text={<span style={{ fontWeight: 900 }}>CREATORVERSE</span>}
+        text={<span style={{ fontWeight: 900 }}>CV</span>}
         color='yellow hover'
       />
     </header>
