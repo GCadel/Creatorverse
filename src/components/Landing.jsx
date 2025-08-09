@@ -49,7 +49,7 @@ export default function Landing() {
         >
           <Card>
             <Padding>
-              <h1>CREATORVERSE</h1>
+              <h1 style={{ fontSize: "1.5rem" }}>CREATORVERSE</h1>
               <h2 style={{ fontStyle: "italic" }}>Web Edition</h2>
             </Padding>
           </Card>
