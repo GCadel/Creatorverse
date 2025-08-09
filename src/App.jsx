@@ -1,34 +1,50 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useEffect, useState } from "react"
+
+import "./App.css"
+import "./Colors.css"
+import ContentCreator from "./components/ContentCreator"
+import { BrowserRouter, Route, Routes } from "react-router"
+import NotFound from "./pages/404"
+import ShowCreators from "./pages/ShowCreators"
+import ViewCreator from "./pages/ViewCreator"
+import Card from "./components/Card"
+import { fetchAllCreators } from "./api"
+import Padding from "./components/Padding"
+import Layout from "./Layout"
+import EditCreator from "./pages/EditCreator"
+import AddCreator from "./pages/AddCreator"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <BrowserRouter>
+      <Layout>
+        <Routes>
+          <Route
+            index
+            element={<ShowCreators />}
+          />
+          <Route
+            path={`/creator/:id`}
+            element={<ViewCreator />}
+          />
+
+          <Route
+            path={`/creator/:id/edit`}
+            element={<EditCreator />}
+          />
+
+          <Route
+            path={`/new`}
+            element={<AddCreator />}
+          />
+
+          <Route
+            path='*'
+            element={<NotFound />}
+          />
+        </Routes>
+      </Layout>
+    </BrowserRouter>
   )
 }
 
