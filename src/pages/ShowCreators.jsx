@@ -61,7 +61,13 @@ export default function ShowCreators() {
                 />
               ))
             ) : (
-              <h2>No Creators Found</h2>
+              <div style={{ gridColumn: "1/ 3", textAlign: "center" }}>
+                <Card>
+                  <Padding>
+                    <h2 style={{ margin: "0 auto" }}>No Creators Found</h2>
+                  </Padding>
+                </Card>
+              </div>
             )}
           </Padding>
         </Padding>
