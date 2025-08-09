@@ -21,6 +21,7 @@
 .red {
   color: black;
   background-color: #ffa07a;
+  transition: 0.3s;
 }
 
 .red.hover:hover {
@@ -30,6 +31,7 @@
 .green {
   color: black;
   background-color: #b5d2ad;
+  transition: 0.3s;
 }
 
 .green.hover:hover {
@@ -39,6 +41,7 @@
 .pink {
   color: black;
   background-color: #fcdfff;
+  transition: 0.3s;
 }
 
 .pink.hover:hover {
@@ -48,6 +51,7 @@
 .blue {
   color: black;
   background-color: #daf5f0;
+  transition: 0.3s;
 }
 
 .blue.hover:hover {
@@ -57,6 +61,7 @@
 .yellow {
   color: black;
   background-color: #fdfd96;
+  transition: 0.3s;
 }
 
 .yellow.hover:hover {
@@ -66,6 +71,7 @@
 .purple {
   color: black;
   background-color: #e3dff2;
+  transition: 0.3s;
 }
 .purple.hover:hover {
   background-color: #a388ee;
@@ -74,6 +80,7 @@
 .softSky {
   color: black;
   background-color: #daf5f0;
+  transition: 0.3s;
 }
 .softSky.hover:hover {
   background-color: #87ceeb;
@@ -82,6 +89,7 @@
 .sageGreen {
   color: black;
   background-color: #b5d2ad;
+  transition: 0.3s;
 }
 .sageGreen.hover:hover {
   background-color: #bafca2;
@@ -90,6 +98,7 @@
 .lemonYellow {
   color: black;
   background-color: #fdfd96;
+  transition: 0.3s;
 }
 .lemonYellow.hover:hover {
   background-color: #f4d738;
@@ -98,6 +107,7 @@
 .peachCream {
   color: black;
   background-color: #f8d6b3;
+  transition: 0.3s;
 }
 .peachCream.hover:hover {
   background-color: #ffa07a;
@@ -106,6 +116,7 @@
 .pastelPink {
   color: black;
   background-color: #fcdfff;
+  transition: 0.3s;
 }
 .pastelPink.hover:hover {
   background-color: #ffb2ef;
@@ -114,6 +125,7 @@
 .lavenderMist {
   color: black;
   background-color: #e3dff2;
+  transition: 0.3s;
 }
 .lavenderMist.hover:hover {
   background-color: #a388ee;
@@ -122,6 +134,7 @@
 .tealTint {
   color: black;
   background-color: #a7dbd8;
+  transition: 0.3s;
 }
 .tealTint.hover:hover {
   background-color: #69d2e7;
@@ -130,6 +143,7 @@
 .mintGreen {
   color: black;
   background-color: #bafca2;
+  transition: 0.3s;
 }
 .mintGreen.hover:hover {
   background-color: #90ee90;
@@ -138,6 +152,7 @@
 .sunflower {
   color: black;
   background-color: #ffdb58;
+  transition: 0.3s;
 }
 .sunflower.hover:hover {
   background-color: #e3a018;
@@ -146,6 +161,7 @@
 .softCoral {
   color: black;
   background-color: #ffa07a;
+  transition: 0.3s;
 }
 .softCoral.hover:hover {
   background-color: #ff7a5c;
@@ -154,6 +170,7 @@
 .babyPink {
   color: black;
   background-color: #ffc0cb;
+  transition: 0.3s;
 }
 .babyPink.hover:hover {
   background-color: #ffb2ef;
@@ -162,6 +179,7 @@
 .lilac {
   color: black;
   background-color: #c4a1ff;
+  transition: 0.3s;
 }
 .lilac.hover:hover {
   background-color: #a388ee;
@@ -170,6 +188,7 @@
 .skyBlue {
   color: black;
   background-color: #87ceeb;
+  transition: 0.3s;
 }
 .skyBlue.hover:hover {
   background-color: #69d2e7;
@@ -178,6 +197,7 @@
 .freshGreen {
   color: black;
   background-color: #90ee90;
+  transition: 0.3s;
 }
 .freshGreen.hover:hover {
   background-color: #7fbc8c;
@@ -186,6 +206,7 @@
 .goldYellow {
   color: black;
   background-color: #f4d738;
+  transition: 0.3s;
 }
 .goldYellow.hover:hover {
   background-color: #e3a018;
@@ -194,6 +215,7 @@
 .salmonPink {
   color: black;
   background-color: #ff7a5c;
+  transition: 0.3s;
 }
 .salmonPink.hover:hover {
   background-color: #ff6b6b;
@@ -202,6 +224,7 @@
 .cottonCandy {
   color: black;
   background-color: #ffb2ef;
+  transition: 0.3s;
 }
 .cottonCandy.hover:hover {
   background-color: #ff69b4;
@@ -210,6 +233,7 @@
 .amethyst {
   color: black;
   background-color: #a388ee;
+  transition: 0.3s;
 }
 .amethyst.hover:hover {
   background-color: #9723c9;
@@ -218,6 +242,7 @@
 .aquaBlue {
   color: black;
   background-color: #69d2e7;
+  transition: 0.3s;
 }
 .aquaBlue.hover:hover {
   background-color: #87ceeb;
@@ -226,6 +251,7 @@
 .mossGreen {
   color: black;
   background-color: #7fbc8c;
+  transition: 0.3s;
 }
 .mossGreen.hover:hover {
   background-color: #90ee90;
@@ -234,6 +260,7 @@
 .deepGold {
   color: black;
   background-color: #e3a018;
+  transition: 0.3s;
 }
 .deepGold.hover:hover {
   background-color: #f4d738;
@@ -242,6 +269,7 @@
 .strawberry {
   color: black;
   background-color: #ff6b6b;
+  transition: 0.3s;
 }
 .strawberry.hover:hover {
   background-color: #ff7a5c;
@@ -250,6 +278,7 @@
 .hotPink {
   color: black;
   background-color: #ff69b4;
+  transition: 0.3s;
 }
 .hotPink.hover:hover {
   background-color: #ffb2ef;
@@ -258,6 +287,7 @@
 .vividPurple {
   color: black;
   background-color: #9723c9;
+  transition: 0.3s;
 }
 .vividPurple.hover:hover {
   background-color: #a388ee;
