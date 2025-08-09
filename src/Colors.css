@@ -1,0 +1,264 @@
+.contrast {
+  color: white;
+  /* background-color: transparent; */
+}
+
+.regular {
+  color: black;
+  background-color: transparent;
+}
+
+.white {
+  color: black;
+  background-color: rgb(255, 255, 255);
+}
+
+.tan {
+  color: black;
+  background-color: #fee9d5;
+}
+
+.red {
+  color: black;
+  background-color: #ffa07a;
+}
+
+.red.hover:hover {
+  background-color: #ff7a5c;
+}
+
+.green {
+  color: black;
+  background-color: #b5d2ad;
+}
+
+.green.hover:hover {
+  background-color: #bafca2;
+}
+
+.pink {
+  color: black;
+  background-color: #fcdfff;
+}
+
+.pink.hover:hover {
+  background-color: #ffb2ef;
+}
+
+.blue {
+  color: black;
+  background-color: #daf5f0;
+}
+
+.blue.hover:hover {
+  background-color: #87ceeb;
+}
+
+.yellow {
+  color: black;
+  background-color: #fdfd96;
+}
+
+.yellow.hover:hover {
+  background-color: #f4d738;
+}
+
+.purple {
+  color: black;
+  background-color: #e3dff2;
+}
+.purple.hover:hover {
+  background-color: #a388ee;
+}
+
+.softSky {
+  color: black;
+  background-color: #daf5f0;
+}
+.softSky.hover:hover {
+  background-color: #87ceeb;
+}
+
+.sageGreen {
+  color: black;
+  background-color: #b5d2ad;
+}
+.sageGreen.hover:hover {
+  background-color: #bafca2;
+}
+
+.lemonYellow {
+  color: black;
+  background-color: #fdfd96;
+}
+.lemonYellow.hover:hover {
+  background-color: #f4d738;
+}
+
+.peachCream {
+  color: black;
+  background-color: #f8d6b3;
+}
+.peachCream.hover:hover {
+  background-color: #ffa07a;
+}
+
+.pastelPink {
+  color: black;
+  background-color: #fcdfff;
+}
+.pastelPink.hover:hover {
+  background-color: #ffb2ef;
+}
+
+.lavenderMist {
+  color: black;
+  background-color: #e3dff2;
+}
+.lavenderMist.hover:hover {
+  background-color: #a388ee;
+}
+
+.tealTint {
+  color: black;
+  background-color: #a7dbd8;
+}
+.tealTint.hover:hover {
+  background-color: #69d2e7;
+}
+
+.mintGreen {
+  color: black;
+  background-color: #bafca2;
+}
+.mintGreen.hover:hover {
+  background-color: #90ee90;
+}
+
+.sunflower {
+  color: black;
+  background-color: #ffdb58;
+}
+.sunflower.hover:hover {
+  background-color: #e3a018;
+}
+
+.softCoral {
+  color: black;
+  background-color: #ffa07a;
+}
+.softCoral.hover:hover {
+  background-color: #ff7a5c;
+}
+
+.babyPink {
+  color: black;
+  background-color: #ffc0cb;
+}
+.babyPink.hover:hover {
+  background-color: #ffb2ef;
+}
+
+.lilac {
+  color: black;
+  background-color: #c4a1ff;
+}
+.lilac.hover:hover {
+  background-color: #a388ee;
+}
+
+.skyBlue {
+  color: black;
+  background-color: #87ceeb;
+}
+.skyBlue.hover:hover {
+  background-color: #69d2e7;
+}
+
+.freshGreen {
+  color: black;
+  background-color: #90ee90;
+}
+.freshGreen.hover:hover {
+  background-color: #7fbc8c;
+}
+
+.goldYellow {
+  color: black;
+  background-color: #f4d738;
+}
+.goldYellow.hover:hover {
+  background-color: #e3a018;
+}
+
+.salmonPink {
+  color: black;
+  background-color: #ff7a5c;
+}
+.salmonPink.hover:hover {
+  background-color: #ff6b6b;
+}
+
+.cottonCandy {
+  color: black;
+  background-color: #ffb2ef;
+}
+.cottonCandy.hover:hover {
+  background-color: #ff69b4;
+}
+
+.amethyst {
+  color: black;
+  background-color: #a388ee;
+}
+.amethyst.hover:hover {
+  background-color: #9723c9;
+}
+
+.aquaBlue {
+  color: black;
+  background-color: #69d2e7;
+}
+.aquaBlue.hover:hover {
+  background-color: #87ceeb;
+}
+
+.mossGreen {
+  color: black;
+  background-color: #7fbc8c;
+}
+.mossGreen.hover:hover {
+  background-color: #90ee90;
+}
+
+.deepGold {
+  color: black;
+  background-color: #e3a018;
+}
+.deepGold.hover:hover {
+  background-color: #f4d738;
+}
+
+.strawberry {
+  color: black;
+  background-color: #ff6b6b;
+}
+.strawberry.hover:hover {
+  background-color: #ff7a5c;
+}
+
+.hotPink {
+  color: black;
+  background-color: #ff69b4;
+}
+.hotPink.hover:hover {
+  background-color: #ffb2ef;
+}
+
+.vividPurple {
+  color: black;
+  background-color: #9723c9;
+}
+.vividPurple.hover:hover {
+  background-color: #a388ee;
+}
