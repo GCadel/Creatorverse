@@ -10,7 +10,32 @@ export default function NotFound() {
     "Hi, Mom!",
   ]
 
-  const color = ["red", "green", "blue", "pink", "purple", "yellow"]
+  const colors = [
+    "softSky",
+    "sageGreen",
+    "lemonYellow",
+    "peachCream",
+    "pastelPink",
+    "lavenderMist",
+    "tealTint",
+    "mintGreen",
+    "sunflower",
+    "softCoral",
+    "babyPink",
+    "lilac",
+    "skyBlue",
+    "freshGreen",
+    "goldYellow",
+    "salmonPink",
+    "cottonCandy",
+    "amethyst",
+    "aquaBlue",
+    "mossGreen",
+    "deepGold",
+    "strawberry",
+    "hotPink",
+    "vividPurple",
+  ]
 
   function getRandomItem(arr) {
     return arr[Math.floor(Math.random() * arr.length)]
@@ -37,7 +62,7 @@ export default function NotFound() {
           <Button
             text={"Go Home"}
             link={"/"}
-            color={`${getRandomItem(color)} hover`}
+            color={`${getRandomItem(colors)} hover`}
           />
         </div>
       </Padding>
