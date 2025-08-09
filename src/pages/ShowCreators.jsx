@@ -5,6 +5,7 @@ import Card from "../components/Card"
 import ContentCreator from "../components/ContentCreator"
 import Padding from "../components/Padding"
 import LoadingCard from "../components/LoadingCard"
+import Landing from "../components/Landing"
 
 // For viewing all creators
 export default function ShowCreators() {
@@ -26,39 +27,45 @@ export default function ShowCreators() {
     return <LoadingCard itemName={"Creators"} />
   }
   return (
-    <Card bgColor='tan'>
-      <Padding>
-        <h1 style={{ textAlign: "center" }}>Creators</h1>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            padding: "1em",
-          }}
-        >
-          <Button
-            text={"New Creator"}
-            color='cottonCandy hover'
-            link={"/new"}
-          />
-        </div>
-        <Padding
-          centered={true}
-          container={true}
-        >
-          {creators.length > 0 ? (
-            creators.map((creator) => (
-              <ContentCreator
-                creator={creator}
-                key={creator.id}
-              />
-            ))
-          ) : (
-            <h2>No Creators Found</h2>
-          )}
+    <>
+      <Landing />
+      <br />
+      <Card bgColor='tan'>
+        <Padding>
+          <h2 style={{ textAlign: "center", fontSize: "2rem" }}>
+            Browse Creators
+          </h2>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              padding: "1em",
+            }}
+          >
+            <Button
+              text={"New Creator"}
+              color='cottonCandy hover'
+              link={"/new"}
+            />
+          </div>
+          <Padding
+            centered={true}
+            container={true}
+          >
+            {creators.length > 0 ? (
+              creators.map((creator) => (
+                <ContentCreator
+                  creator={creator}
+                  key={creator.id}
+                />
+              ))
+            ) : (
+              <h2>No Creators Found</h2>
+            )}
+          </Padding>
         </Padding>
-      </Padding>
-    </Card>
+      </Card>
+    </>
   )
 }
